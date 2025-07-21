@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "google-auth",
+    "name": "GoogleAuth",
     "slug": "google-auth",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,14 +9,17 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anmoltanwar.googleauth"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "bundleIdentifier": "com.anmoltanwar.googleauth",
+      "package": "com.anmoltanwar.googleauth"
     },
     "web": {
       "bundler": "metro",
